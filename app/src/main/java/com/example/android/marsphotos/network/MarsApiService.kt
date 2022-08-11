@@ -32,7 +32,7 @@ object MarsApi {
 //how Retrofit talks to the web server using HTTP requests
 interface MarsApiService {
     @GET("photos")
-    fun getPhotos(): String
+    suspend fun getPhotos(): String
 }
 
 //class MarsApiService {
