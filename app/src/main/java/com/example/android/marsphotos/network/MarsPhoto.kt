@@ -2,8 +2,10 @@ package com.example.android.marsphotos.network
 
 import com.squareup.moshi.Json
 
-//Moshi parse the JSON object into Kotlin object
-//moshi need to have kotlin data class to store parse result 👇
+/**
+ * This data class defines a Mars photo which includes an ID, and the image URL.
+ * The property names of this data class are used by Moshi to match the names of values in JSON.
+ */
 
 data class MarsPhoto(
     val id : String,
