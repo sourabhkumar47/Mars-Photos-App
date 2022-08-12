@@ -43,7 +43,7 @@ class OverviewViewModel : ViewModel() {
 
     /**
      * Gets Mars photos information from the Mars API Retrofit service and updates the
-     * [MarsPhoto] [List] [LiveData].
+     * [getMarsPhotos] [List] [LiveData].
      */
     private fun getMarsPhotos() {
         //launch the coroutine
@@ -52,7 +52,7 @@ class OverviewViewModel : ViewModel() {
             try {
                 //use singleton object to call getPhoto()
                 val listResult = MarsApi.retrofitService.getPhotos()
-                _status.value = listResult
+                _status.value = "Success :${listResult.size} Mars photos received"
             } catch (e: Exception) {
                 _status.value = "Failure: ${e.message}"
             }
