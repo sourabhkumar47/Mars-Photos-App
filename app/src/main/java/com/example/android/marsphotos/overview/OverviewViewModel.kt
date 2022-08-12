@@ -48,6 +48,7 @@ class OverviewViewModel : ViewModel() {
     private fun getMarsPhotos() {
         //launch the coroutine
         viewModelScope.launch {
+            //To handle exception(no network) use try and catch
             try {
                 //use singleton object to call getPhoto()
                 val listResult = MarsApi.retrofitService.getPhotos()

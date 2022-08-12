@@ -76,7 +76,14 @@
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.3.0/21f49f5f9b85fc49de712539f79123119740595/annotation-1.3.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8ce0382ee37887af1818cee5afeb08c4/transformed/jetified-kotlinx-coroutines-core-jvm-1.6.1.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/9e8829d165439bdf566af1fd5ac11443/transformed/jetified-kotlinx-coroutines-android-1.6.1.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/669cd1e3687493054f2cfa2c51556f73/transformed/jetified-moshi-kotlin-1.13.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/69b2ea5a742837a466550d5f0922f4d0/transformed/jetified-converter-moshi-2.9.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/6bc59e111af3495d533185f0c361adef/transformed/jetified-moshi-1.13.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/403e15df4e50b04fadcad73e5787d935/transformed/jetified-kotlin-stdlib-jdk8-1.6.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/64a7baa70332926c4504ebf0d360ae41/transformed/jetified-kotlin-reflect-1.6.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/a2916997dc5b65ce17e3c13307aabc71/transformed/jetified-retrofit-2.9.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/87f166fa14b47e26001c870ac5f395c9/transformed/jetified-okhttp-3.14.9.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/f073454747a4d7094a299ba1d750e913/transformed/jetified-okio-jvm-2.10.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/519970bea59bf54c49c6f06082ffcb95/transformed/jetified-kotlin-stdlib-jdk7-1.6.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c4239043c9d15f19d0f33e0bd8c99343/transformed/jetified-kotlin-stdlib-1.7.10.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/800b7b56dfa41dfccfb3305b8e94b671/transformed/jetified-kotlin-stdlib-common-1.7.10.jar</arg>
@@ -84,10 +91,6 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2365a4fa6a62912fd45be90691a34cd6/transformed/jetified-startup-runtime-1.1.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7b009f7707ffe123c333f83f67b49163/transformed/jetified-annotation-experimental-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/41667275dab4eea0a9828a418895ef88/transformed/constraintlayout-2.1.4-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/e35c3f6de2f9dc5dac0b22fad25caf91/transformed/jetified-converter-scalars-2.9.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/a2916997dc5b65ce17e3c13307aabc71/transformed/jetified-retrofit-2.9.0.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/87f166fa14b47e26001c870ac5f395c9/transformed/jetified-okhttp-3.14.9.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/b5af71189c164fcbbaccd6ba6f28bcda/transformed/jetified-okio-1.17.2.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-32/android.jar</arg>
                 <arg>$USER_HOME$/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar</arg>
               </args>
@@ -167,8 +170,11 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.collection:collection-ktx:1.1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:retrofit:2.9.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okhttp3:okhttp:3.14.9" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:1.17.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:converter-scalars:2.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.okio:okio:2.10.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.retrofit2:converter-moshi:2.9.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.moshi:moshi:1.13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.squareup.moshi:moshi-kotlin:1.13.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.6.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:databinding-runtime:7.2.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.databinding:viewbinding:7.2.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.lifecycle:lifecycle-runtime:2.5.1@aar" level="project" />
