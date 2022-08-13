@@ -56,7 +56,7 @@ class OverviewViewModel : ViewModel() {
             //To handle exception(no network) use try and catch
             try {
                 //use singleton object to call getPhoto()
-                val _photos.value = MarsApi.retrofitService.getPhotos()[0]
+                _photos.value = MarsApi.retrofitService.getPhotos()[0]
                 _status.value = "First Mars image URL : ${_photos.value!!.imgSrcUrl}"
             } catch (e: Exception) {
                 _status.value = "Failure: ${e.message}"
