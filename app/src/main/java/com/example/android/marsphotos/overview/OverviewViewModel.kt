@@ -36,8 +36,8 @@ class OverviewViewModel : ViewModel() {
     val status: LiveData<String> = _status
 
     //store single mars photo
-    private val _photos = MutableLiveData<MarsPhoto>()
-    val photos: LiveData<MarsPhoto> = _photos
+    private val _photos = MutableLiveData<List<MarsPhoto>>()
+    val photos: LiveData<List<MarsPhoto>> = _photos
 
     /**
      * Call getMarsPhotos() on init so we can display status immediately.
@@ -55,9 +55,9 @@ class OverviewViewModel : ViewModel() {
         viewModelScope.launch {
             //To handle exception(no network) use try and catch
             try {
-                //use singleton object to call getPhoto()
-                _photos.value = MarsApi.retrofitService.getPhotos()[0]
-                _status.value = "First Mars image URL : ${_photos.value!!.imgSrcUrl}"
+                //return the list of mars photo objects
+                _photos.value = MarsApi.retrofitService.getPhotos()
+                _status.value = "Success: Mars properties retrieved"
             } catch (e: Exception) {
                 _status.value = "Failure: ${e.message}"
             }
