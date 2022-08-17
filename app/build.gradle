@@ -80,5 +80,6 @@ dependencies {
 
     //Coil Library to display image
     implementation 'io.coil-kt:coil:2.1.0'
+    implementation 'androidx.leanback:leanback:1.0.0'
 
 }

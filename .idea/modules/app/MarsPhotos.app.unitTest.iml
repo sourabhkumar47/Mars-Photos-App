@@ -22,11 +22,13 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/87a963588ae02db60e4b002d934aec8b/transformed/navigation-ui-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/b0200987226476aacf15b77db2433372/transformed/material-1.6.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/68f627b80c6d7cda9163dfe9d02ec760/transformed/appcompat-1.5.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/28731fb058026ebdb0c29fa28f18c69f/transformed/leanback-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7db22c0bfb46ad161e74fec9d77f91b7/transformed/jetified-viewpager2-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/731ff38176cb8bf519fdecec36a1b645/transformed/navigation-fragment-ktx-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/58b50527257574f811af780093ee0933/transformed/navigation-fragment-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/6421fb71b3ac0677078f7261b8c43574/transformed/jetified-fragment-ktx-1.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f912d68d2aed0b95e0d350370d262c40/transformed/fragment-1.5.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/a5a8b1a1dce0a3e6de8ac09c9f7cefac/transformed/legacy-support-core-ui-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0745e3e147987d5628895d4ba0b889c4/transformed/coordinatorlayout-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/504dddff061a3e85e810842e1fea596f/transformed/dynamicanimation-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0cbf5c98682445103e374643ced05315/transformed/recyclerview-1.1.0-api.jar</arg>
@@ -43,11 +45,14 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1ee0974086f0b941842a07f1b4246a32/transformed/jetified-core-ktx-1.8.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/9faf39a0257a2d787c86196ddf63799d/transformed/drawerlayout-1.1.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7ab18cbc86f8e893a9ebb6236ef23b56/transformed/transition-1.4.1-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/c7fb9ff9df0da8c638eb5fffc8cd4d13/transformed/media-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8d94ee1d7e490e0e0e39a79e87213492/transformed/viewpager-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8609483866bdd19dc3d296ae85a8c262/transformed/slidingpanelayout-1.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7879f265f85e9f84675e901fbc43954c/transformed/customview-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/92985bdfc08130bbc3f90e22805dcab9/transformed/legacy-support-core-utils-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8d519ab147d096c192da8f55f751e904/transformed/loader-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/96b1276418686d6fccc0b3b8ebe507c7/transformed/swiperefreshlayout-1.0.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/5caa61223f010429a7b93eee98523af3/transformed/asynclayoutinflater-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/65b957e674064c1ee3c6ef1b4db5223f/transformed/core-1.8.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/add94f90d82dc56a4a1f6fccaf2cac03/transformed/versionedparcelable-1.1.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1bb588329128245d748b621f79bcc12f/transformed/jetified-collection-ktx-1.1.0.jar</arg>
@@ -236,6 +241,11 @@
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.coil-kt:coil:2.1.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: io.coil-kt:coil-base:2.1.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.leanback:leanback:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.legacy:legacy-support-core-ui:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.swiperefreshlayout:swiperefreshlayout:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.asynclayoutinflater:asynclayoutinflater:1.0.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: androidx.media:media:1.0.0@aar" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="MarsPhotos.app.main" />
 </module>
