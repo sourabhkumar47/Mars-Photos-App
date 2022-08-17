@@ -31,7 +31,6 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/a5a8b1a1dce0a3e6de8ac09c9f7cefac/transformed/legacy-support-core-ui-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0745e3e147987d5628895d4ba0b889c4/transformed/coordinatorlayout-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/504dddff061a3e85e810842e1fea596f/transformed/dynamicanimation-1.0.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/0cbf5c98682445103e374643ced05315/transformed/recyclerview-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0f5db4bd6a2b26d50d8a586f10ec4cc5/transformed/jetified-appcompat-resources-1.5.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1958859ca2d881b5b405025f443a4b0d/transformed/vectordrawable-animated-1.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5cea1fbb2d685cf685802279289088d0/transformed/vectordrawable-1.1.0-api.jar</arg>
@@ -43,6 +42,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/386bc9e85f77ccd898beeb2c839a5868/transformed/navigation-common-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bcfdbe39b8733d0705d2ad381ccdc5ff/transformed/jetified-lifecycle-viewmodel-savedstate-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1ee0974086f0b941842a07f1b4246a32/transformed/jetified-core-ktx-1.8.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/d3d637d9556d4fece02231baaee4611c/transformed/recyclerview-1.2.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/9faf39a0257a2d787c86196ddf63799d/transformed/drawerlayout-1.1.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/7ab18cbc86f8e893a9ebb6236ef23b56/transformed/transition-1.4.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/c7fb9ff9df0da8c638eb5fffc8cd4d13/transformed/media-1.0.0-api.jar</arg>
@@ -57,6 +57,7 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/add94f90d82dc56a4a1f6fccaf2cac03/transformed/versionedparcelable-1.1.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1bb588329128245d748b621f79bcc12f/transformed/jetified-collection-ktx-1.1.0.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.2.0/34dbc21d203cc4d4d623ac572a21acd4ccd716af/collection-1.2.0.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/6712a943221b275cdc50203f45666b69/transformed/cardview-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/3e7672079616831290fdf462376ee6e3/transformed/jetified-viewbinding-7.2.2-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/9c9fc9a3c3ef70773225a41dfd029bc0/transformed/jetified-lifecycle-runtime-ktx-2.5.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5de9dd677c3b7192e9954e0872a75a50/transformed/jetified-lifecycle-process-2.4.1-api.jar</arg>
@@ -69,7 +70,6 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/944a4ecff9ace89fa572c889408247b0/transformed/cursoradapter-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/75eb0d7b946f64ee0eb269fa4bdc8644/transformed/jetified-savedstate-ktx-1.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/1ecf9f6356b91c94b771a7f8548d7c8c/transformed/jetified-savedstate-1.2.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/6712a943221b275cdc50203f45666b69/transformed/cardview-1.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/2cd8139e809f4b0d867e88e8da9d5e37/transformed/lifecycle-livedata-2.2.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/31671152c9ad0e0b7678a4175dce1204/transformed/core-runtime-2.1.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar</arg>
@@ -248,7 +248,7 @@
     <orderEntry type="library" name="Gradle: androidx.documentfile:documentfile:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.localbroadcastmanager:localbroadcastmanager:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.print:print:1.0.0@aar" level="project" />
-    <orderEntry type="library" name="Gradle: androidx.recyclerview:recyclerview:1.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: androidx.recyclerview:recyclerview:1.2.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.transition:transition:1.4.1@aar" level="project" />
     <orderEntry type="library" name="Gradle: androidx.viewpager2:viewpager2:1.0.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: io.coil-kt:coil:2.1.0@aar" level="project" />
