@@ -24,6 +24,8 @@ import com.example.android.marsphotos.network.MarsApi
 import com.example.android.marsphotos.network.MarsPhoto
 import kotlinx.coroutines.launch
 
+enum class MarsApiStatus {LOADING, ERROR, DONE}
+
 /**
  * The [ViewModel] that is attached to the [OverviewFragment].
  */
