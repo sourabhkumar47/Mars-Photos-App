@@ -17,9 +17,10 @@ The app also leverages [ViewModel](https://developer.android.com/topic/libraries
 
 ## Screenshots
 
-![Screenshot showing For You screen](Screenshots/Screenshots (1).png "Screenshot showing For You screen")
-![Screenshot showing Interests screen](Screenshots/Screenshots (2).png "Screenshot showing Interests screen")
-
+<div style="display:flex;">
+<img alt="App image" src="https://github.com/sourabhkumar47/Mars-Photos-App/blob/master/Screenshots/Screenshots%20(1).png" width="30%">
+<img alt="App image" src="Screenshots/Screenshots2.png" width="30%">
+</div>
 Pre-requisites
 --------------
 
