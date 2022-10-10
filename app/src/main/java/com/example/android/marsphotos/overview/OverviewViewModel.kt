@@ -37,7 +37,7 @@ class OverviewViewModel : ViewModel() {
     // The external immutable LiveData for the request status
     val status: LiveData<MarsApiStatus> = _status
 
-    //store single mars photo
+    //store list of mars photo
     private val _photos = MutableLiveData<List<MarsPhoto>>()
     val photos: LiveData<List<MarsPhoto>> = _photos
 
